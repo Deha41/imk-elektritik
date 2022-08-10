@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header-container">
+        <nav>
+            <div class="logo">
+                <img src="./images/logo2.png" alt="">
+            </div>
+            <ul>
+                <li><a href="">Anasayfa</a></li>
+                <li><a href="">İletişim</a></li>
+                <li><a href="">Yaptıklarımız</a></li>
+                <li><a href="">Ürünler</a></li>
+                <li><a href="">Hizmetler</a></li>
+            </ul>
+            <span id="open-mobile-nav"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+        <ul class="mobile-nav">
+            <li><a href="">Anasayfa</a></li>
+            <li><a href="">İletişim</a></li>
+            <li><a href="">Yaptıklarımız</a></li>
+            <li><a href="">Ürünler</a></li>
+            <li><a href="">Hizmetler</a></li>
+        </ul>
+    </div>
+    <div class="content-iletisim">
+        <div class="harita">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lNTfaJdTxPUsUZBqD6wrrTIY3_lrB54Q&amp;ehbc=2E312F" width="80%" height="480">
+
+            </iframe>
+        </div>
+        <div class="qr">
+            <img class="qrimg"src="images/qr-code.png" alt="">
+        </div>
+       <div class="patron">
+            <div class="patronbilgi">
+                <p>Musa Kovalık</p>
+                  <br>
+                <p>0532 795 55 07</p>
+            </div>
+        </div>
+        <div class="patron">
+            <div class="patronbilgi">
+                <p>E-posta</p>
+                  <br>
+                <p class="info">info@imkelektrik. com</p>
+            </div>
+        </div>
+        <div class="eposta">
+            
+            <form action="https://formspree.io/f/xpzbwpzl" method="POST" class="cf">
+              <div class="half left cf">
+                <input name="isim" type="text" id="input-name" placeholder="Adınız" required="">
+                <input name="e-posta" type="email" id="input-email" placeholder="E-Posta" required="">
+                <input name="konu" type="text" id="input-subject" placeholder="Konu" required="">
+              </div>
+              <div class="half right cf">
+                <textarea name="mesaj" type="text" id="input-message" placeholder="Mesaj" required=""></textarea>
+              </div>  
+              <input type="submit" value="Gönder" id="input-submit">
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footerlogo">
+            <img src="images/logo2 2.png" alt="">
+        </div>
+        <p class="telif">Tüm Hakları Saklıdır ©</p>
+        
+        <div class="footeriletisim">
+            İletişim Tel:05397673275
+        </div>
+        
+    </footer>
+</body>
+<script src="./app.js"></script>
+<script src="https://kit.fontawesome.com/d724aedcfc.js" crossorigin="anonymous"></script>
+</html>
